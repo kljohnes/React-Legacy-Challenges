@@ -1,11 +1,12 @@
 import React from 'react';
-// import SearchIndex from './SearchIndex';
+import SearchIndex from './SearchIndex';
 import { Container } from 'reactstrap';
  
 const Search = () => {
    return (
      <Container className="App">
-     <br />
+       <br/>
+     {/* <br />
        <h1 className="App-intro">
      In this challenge your goal is to use the existing code to create the following: 
        </h1>
@@ -21,8 +22,8 @@ const Search = () => {
             ability to display only the terms that match the search, or all if no search term is provided
          </li>
        </ul>
-       <hr />
-       {/* <SearchIndex /> */}
+       <hr /> */}
+       <SearchIndex />
      </Container>
    );
 

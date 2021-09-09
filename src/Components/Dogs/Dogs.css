@@ -1,0 +1,18 @@
+#dogImage {
+    display: flex;
+    flex-direction: column;
+}
+
+#img {
+    width: 50%;
+    align-self: center;
+}
+
+#button{
+    width: 30%;
+    align-self: center;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}

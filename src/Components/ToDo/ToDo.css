@@ -1,0 +1,47 @@
+.main {
+    display: grid;
+    justify-content: space-evenly;
+    margin: 10px;
+  
+    
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: gray;
+}
+
+button {
+    border: 2px solid black;
+   
+}
+
+#delete {
+    background-color: red;
+    border-radius: 5px;
+}
+
+#tasks {
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+ 
+
+}
+
+#checkbox {
+    margin-right: 10px;
+
+}
+
+#input {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
